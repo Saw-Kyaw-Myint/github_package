@@ -1,0 +1,56 @@
+{
+  "name": "vue-elegant-button-skm",
+  "version": "0.1.4",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue-elegant-button ./src/install.js",
+    "build-button": "vue-cli-service build --target lib --format=umd --name vue-elegant-button --dest  dist/components/design/test-button --report ./src/install.js",
+    "publish-package": "npm run build-library && npm publish --access public",
+    "build:design:button": "vue-cli-service build --target lib --formats=umd --name DesignButton --dest  dist/components/design/button --report ./src/components/design/button.js",
+    "build:design:form": "vue-cli-service build --target lib --formats=umd --name DesignForm --dest  dist/components/design/form --report ./src/components/design/form.js",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "./dist/vue-elegant-button.common.js",
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "vue2",
+    "buttons"
+  ],
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

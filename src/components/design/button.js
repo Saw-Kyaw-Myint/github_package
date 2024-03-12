@@ -1,6 +1,4 @@
-export * from "@/components/design/button";
-import * as commonComponent from "@/components/design/button";
-export * from "./form";
+import * as commonComponent from "@/components/design/button/index";
 
 export const install = (Vue) => {
   Object.values(commonComponent)
@@ -9,3 +7,4 @@ export const install = (Vue) => {
       Vue.component(component.name, component);
     });
 };
+export * from "@/components/design/button/index";

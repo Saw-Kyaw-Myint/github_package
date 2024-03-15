@@ -1,6 +1,6 @@
 {
-  "name": "vue-elegant-button-skm",
-  "version": "0.1.4",
+  "name": "github-package",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",

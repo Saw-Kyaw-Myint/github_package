@@ -35,7 +35,7 @@
     <button class="button-33">
       {{ text }}
     </button>
-    <img src="/img/demo.jpg" width="100" height="100" />
+    <img src="/public/img/demo.jpg" width="100" height="100" />
   </div>
 </template>
 

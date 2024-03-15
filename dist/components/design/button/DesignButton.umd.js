@@ -84,7 +84,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/design/button/GreenButton.vue?vue&type=template&id=15896d22
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/design/button/GreenButton.vue?vue&type=template&id=787c2238
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -92,7 +92,7 @@ var render = function render() {
     staticClass: "button-33"
   }, [_vm._v(" " + _vm._s(_vm.text) + " ")]), _c('img', {
     attrs: {
-      "src": "/img/demo.jpg",
+      "src": "/public/img/demo.jpg",
       "width": "100",
       "height": "100"
     }
@@ -117,10 +117,10 @@ var staticRenderFns = [];
 });
 ;// CONCATENATED MODULE: ./src/components/design/button/GreenButton.vue?vue&type=script&lang=js
  /* harmony default export */ var button_GreenButtonvue_type_script_lang_js = (GreenButtonvue_type_script_lang_js); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-22.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/design/button/GreenButton.vue?vue&type=style&index=0&id=15896d22&prod&lang=scss
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-22.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/design/button/GreenButton.vue?vue&type=style&index=0&id=787c2238&prod&lang=scss
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/design/button/GreenButton.vue?vue&type=style&index=0&id=15896d22&prod&lang=scss
+;// CONCATENATED MODULE: ./src/components/design/button/GreenButton.vue?vue&type=style&index=0&id=787c2238&prod&lang=scss
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */

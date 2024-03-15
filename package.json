@@ -1,6 +1,6 @@
 {
-  "name": "vue-elegant-button-skm",
-  "version": "0.1.4",
+  "name": "github-package",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -32,6 +32,8 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.1.1",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {

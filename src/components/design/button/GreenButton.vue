@@ -1,5 +1,28 @@
+<template>
+  <div>
+    <button class="button-33">
+      {{ text }}
+    </button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "GreenButton",
+  props: {
+    background: {
+      default: "#456099",
+    },
+    color: {
+      default: "#fff",
+    },
+    text: {
+      default: "My Button",
+    },
+  },
+};
+</script>
 <style scoped>
-/* CSS */
 .button-33 {
   background-color: #c2fbd7;
   border-radius: 100px;
@@ -30,28 +53,3 @@
   transform: scale(1.05) rotate(-1deg);
 }
 </style>
-<template>
-  <div>
-    <button class="button-33">
-      {{ text }}
-    </button>
-    <p>saw kyaw myint</p>
-  </div>
-</template>
-
-<script>
-export default {
-  name: "GreenButton",
-  props: {
-    background: {
-      default: "#456099",
-    },
-    color: {
-      default: "#fff",
-    },
-    text: {
-      default: "My Button",
-    },
-  },
-};
-</script>

@@ -1,4 +1,4 @@
-<style lang="scss">
+<style scoped>
 /* CSS */
 .button-33 {
   background-color: #c2fbd7;
@@ -35,7 +35,7 @@
     <button class="button-33">
       {{ text }}
     </button>
-    <img src="/img/demo.jpg" width="100" height="100" />
+    <p>saw kyaw myint</p>
   </div>
 </template>
 
